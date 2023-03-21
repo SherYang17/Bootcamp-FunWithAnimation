@@ -1,0 +1,49 @@
+header {
+    font-size: 50px;
+    background-color:darkcyan;
+    justify-content: right;
+    text-align: right;
+    color:white
+
+}
+
+
+.whiteText {
+    font-size:35px;
+    color:white;
+
+}
+
+.banner {
+    width:100%;
+    height: auto;
+   
+}
+
+body {
+    background-color: bisque;
+}
+
+main{
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center; 
+}
+.card1 {
+ 
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: beige;
+    border: 5px bisque solid;
+    border-radius: 20px;
+    width:100%;
+    
+
+
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*
