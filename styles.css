@@ -24,10 +24,21 @@ body {
     background-color: bisque;
 }
 
+
+.heading {
+    color:blueviolet;
+    font-size:25px;
+ 
+
+}
+
+
+
+
 main{
     justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center; 
 }
 .card1 {
@@ -39,11 +50,38 @@ main{
     border: 5px bisque solid;
     border-radius: 20px;
     width:100%;
-    
+    padding: 10px 10px;
+
+
+#sector {
+    color:red;
+}
+
+.animate__heartBeat{
+    --animate-duration: 8s;
+    animation-duration: 8s;
+}
+
+.sector {
+  width: 100px;
+  height: 100px;
+  color:red;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+
+
 
 
 /*
     display: flex;
     justify-content: center;
     align-items: center;
-/*
+/
